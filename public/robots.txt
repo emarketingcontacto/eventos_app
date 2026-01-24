@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Carpetas internas de Laravel y administración
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+
+Sitemap: https://todofiestasleon.com/sitemap.xml
