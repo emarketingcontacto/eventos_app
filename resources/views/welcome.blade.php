@@ -297,11 +297,15 @@
         <!-- FAQ (Preguntas Frecuentes) -->
 
         {{-- new Contacto --}}
-        @include('partials.contacto')
+            @include('partials.contacto')
         {{-- new Contacto end--}}
 
+        {{-- GMB --}}
+            @include('partials.map')
+        {{-- GMB end --}}
+
         {{-- modal zonas --}}
-        <x-modal-zonas></x-modal-zonas>
+            <x-modal-zonas></x-modal-zonas>
         {{-- modal zonas end --}}
 
     @endsection

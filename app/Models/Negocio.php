@@ -16,7 +16,8 @@ class Negocio extends Model
         'negocio_telefono',
         'negocio_whatsapp',
         'negocio_facebook',
-        'negocio_tiktok'
+        'negocio_tiktok',
+        'negocio_map_code',
     ];
 
 }

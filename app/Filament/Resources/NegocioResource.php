@@ -36,6 +36,11 @@ class NegocioResource extends Resource
                 TextInput::make('negocio_whatsapp')->label('WhatsApp')->required(),
                 TextInput::make('negocio_facebook')->label('Facebook'),
                 TextInput::make('negocio_tiktok')->label('Tiktok'),
+                TextArea::make('negocio_map_code')
+                ->label('GMB Iframe')
+                ->rows(5)
+                ->helperText('Coloque aquí código Iframe de Google Maps')
+                ->nullable()
             ]);
     }
 
