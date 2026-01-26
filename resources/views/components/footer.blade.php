@@ -27,7 +27,7 @@
                 </a>
                 <p class="text-slate-100 text-md">{{$negocio->negocio_direccion}}</p>
                 <p class="text-slate-500 text-sm">© 2026 Todos los derechos reservados.</p>
-                <a href="https://solucion-e.com.mx" class="text-yellow-300 text-sm hover:text-brand-light-blue">solucion-<span class="text-red-500">e</span></a>
+                <a href="https://solucion-e.com.mx" class="text-slate-500 text-sm hover:text-brand-light-blue">solucion-<span class="text-red-500">e</span></a>
             </div>
         </footer>
     <!-- Footer -->

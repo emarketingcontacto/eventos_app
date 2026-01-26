@@ -68,7 +68,7 @@
         <!-- Sección de Servicios -->
             <section id="servicios" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nuestro Catálogo de Rentas</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nuestro <span class="text-brand-blue">Catálogo de Rentas</span> </h2>
                     <div class="h-1.5 w-20 bg-yellow-400 mx-auto rounded-full"></div>
                     <p class="mt-6 text-slate-600 max-w-2xl mx-auto">Equipos de alta calidad, limpios y seguros para tu tranquilidad y la diversión de tus invitados.</p>
                 </div>
@@ -211,6 +211,7 @@
                 <div class="max-w-7xl mx-auto">
                     <div class="text-center mb-16">
                         <h2 class="text-4xl font-black text-brand-dark tracking-tighter">Eventos <span class="text-brand-blue">Recientes</span></h2>
+                         <div class="h-1.5 w-20 bg-yellow-400 mx-auto rounded-full mt-3 mb-3"></div>
                         <p class="text-slate-500">Mira lo bien que lucen nuestros equipos en acción.</p>
                     </div>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
