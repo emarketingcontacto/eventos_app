@@ -22,6 +22,9 @@
                             <h2 class="text-lg md:text-xl mb-8 opacity-90 text-slate-600" >
                                 Arreglos de Globos para Cumpleaños, Bautizos y Comuniones: Diseños creativos para que tu celebración sea inolvidable.
                             </h2>
+                            <p class="text-sm text-slate-700 mb-2">
+                                ¿Viste un diseño que te encantó? Envíanos la foto y nosotros la hacemos realidad.
+                            </p>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 @include('partials.whatsapp-button',['servicio'=>'Decoracion'])
                             </div>
