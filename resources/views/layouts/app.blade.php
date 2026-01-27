@@ -32,6 +32,10 @@
     <main>
         {{-- contenido de cada página --}}
         @yield('content')
+
+         {{-- modal zonas --}}
+            <x-modal-zonas></x-modal-zonas>
+        {{-- modal zonas end --}}
     </main>
 
     {{-- Footer  --}}
@@ -39,5 +43,7 @@
 
     {{-- JS extra (como un mapa o validación) --}}
     @stack('scripts')
+    {{-- modal control --}}
+    <script src="{{asset('script/script.js')}}"></script>
 </body>
 </html>

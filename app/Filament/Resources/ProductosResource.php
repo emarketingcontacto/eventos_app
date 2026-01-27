@@ -44,8 +44,12 @@ class ProductosResource extends Resource
                 ->label('Descripción'),
 
                 FileUpload::make('prod_image_url')
-                ->label('Imagen')
-                ->directory('imagenes_productos'),
+                ->disk('public')
+                ->directory('imagenes_productos')
+                ->visibility('public')
+                ->image()
+                ->preserveFilenames()
+                ->label('Imagen'),
 
                 TextInput::make('prod_precio')
                 ->mask(RawJs::make('$money($input)'))

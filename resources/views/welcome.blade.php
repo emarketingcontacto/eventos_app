@@ -306,7 +306,7 @@
         {{-- GMB end --}}
 
         {{-- modal zonas --}}
-            <x-modal-zonas></x-modal-zonas>
+            {{-- <x-modal-zonas></x-modal-zonas> --}}
         {{-- modal zonas end --}}
 
     @endsection
@@ -325,5 +325,5 @@
             element.classList.toggle('active');
         }
     </script>
-    <script src="{{asset('script/script.js')}}"></script>
+
 @endpush
