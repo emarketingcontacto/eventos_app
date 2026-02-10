@@ -8,6 +8,10 @@
     {{-- Aquí se inyectará el SEO particular de cada página --}}
     @yield('seo')
 
+    {{-- Goole Search Console --}}
+        <meta name="google-site-verification" content="HD-dKydKK4OsLA0a2HRnwFG_eDk6Lur_jxPmDqI6lhM" />
+    {{-- Goole Search Console end --}}
+
     {{-- schema local  --}}
     @include('partials.schema-local')
 
